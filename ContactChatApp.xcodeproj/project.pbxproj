@@ -16,7 +16,7 @@
 		65FB3E061AE9753C005DD1B4 /* ContactChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E051AE9753C005DD1B4 /* ContactChatAppTests.m */; };
 		65FB3E111AE97587005DD1B4 /* CellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E101AE97587005DD1B4 /* CellTableView.m */; };
 		65FB3E161AE9800F005DD1B4 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E151AE9800F005DD1B4 /* ContactCell.m */; };
-		65FB3E1B1AE9CDC1005DD1B4 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E1A1AE9CDC1005DD1B4 /* ContactsViewController.m */; };
+		65FB3E1E1AEA9A1A005DD1B4 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E1D1AEA9A1A005DD1B4 /* FavoritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		65FB3E101AE97587005DD1B4 /* CellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellTableView.m; path = ../CellTableView.m; sourceTree = "<group>"; };
 		65FB3E141AE9800F005DD1B4 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
 		65FB3E151AE9800F005DD1B4 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
-		65FB3E191AE9CDC1005DD1B4 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
-		65FB3E1A1AE9CDC1005DD1B4 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		65FB3E1C1AEA9A1A005DD1B4 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		65FB3E1D1AEA9A1A005DD1B4 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 		65FB3DDD1AE9753C005DD1B4 = {
 			isa = PBXGroup;
 			children = (
-				65FB3E191AE9CDC1005DD1B4 /* ContactsViewController.h */,
-				65FB3E1A1AE9CDC1005DD1B4 /* ContactsViewController.m */,
+				65FB3E1C1AEA9A1A005DD1B4 /* FavoritesViewController.h */,
+				65FB3E1D1AEA9A1A005DD1B4 /* FavoritesViewController.m */,
 				65FB3E141AE9800F005DD1B4 /* ContactCell.h */,
 				65FB3E151AE9800F005DD1B4 /* ContactCell.m */,
 				65FB3DE81AE9753C005DD1B4 /* ContactChatApp */,
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FB3E161AE9800F005DD1B4 /* ContactCell.m in Sources */,
-				65FB3E1B1AE9CDC1005DD1B4 /* ContactsViewController.m in Sources */,
+				65FB3E1E1AEA9A1A005DD1B4 /* FavoritesViewController.m in Sources */,
 				65FB3DF21AE9753C005DD1B4 /* ViewController.m in Sources */,
 				65FB3E111AE97587005DD1B4 /* CellTableView.m in Sources */,
 				65FB3DEF1AE9753C005DD1B4 /* AppDelegate.m in Sources */,

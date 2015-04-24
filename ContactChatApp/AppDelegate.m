@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CellTableView.h"
-#import "ContactsViewController.h"
+#import "FavoritesViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,23 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    create an instance of a view controller
-    ContactsViewController *contactViewController = [[ContactsViewController alloc]init];
+    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc]init];
     //create an instance of the navController
     CellTableView *contactTableView = [[CellTableView alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:contactTableView];
+    UINavigationController *favNavController = [[UINavigationController alloc]initWithRootViewController:favoritesViewController];
     
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
-    [tabBarController setViewControllers:@[navController,contactViewController]];
+    [tabBarController setViewControllers:@[navController,favNavController]];
     CGRect viewRect = [[UIScreen mainScreen]bounds];//way to contain data, it is a struct
     self.window = [[UIWindow alloc]initWithFrame:viewRect];
     self.window.rootViewController=tabBarController;
     [self.window makeKeyAndVisible];
-    
-
-  
-    
-
     return YES;
 }
 

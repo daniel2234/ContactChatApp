@@ -19,6 +19,7 @@
         self.nameLabel.font = [UIFont fontWithName:@"Helvetica" size:17.0];
         self.nameLabel.textAlignment = NSTextAlignmentCenter;
         self.nameLabel.textColor = [UIColor orangeColor];
+        
         self.companyLabel = [[UILabel alloc]init];
         self.companyLabel.backgroundColor =[UIColor yellowColor];
         self.companyLabel.font =[UIFont fontWithName:@"Helvetica" size:17.0];

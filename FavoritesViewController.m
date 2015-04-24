@@ -1,19 +1,18 @@
 //
-//  ContactsViewController.m
+//  FavoritesViewController.m
 //  ContactChatApp
 //
-//  Created by Daniel Kwiatkowski on 2015-04-23.
+//  Created by Daniel Kwiatkowski on 2015-04-24.
 //  Copyright (c) 2015 Daniel Kwiatkowski. All rights reserved.
 //
 
-#import "ContactsViewController.h"
+#import "FavoritesViewController.h"
 
-@interface ContactsViewController ()
+@interface FavoritesViewController ()
 
 @end
 
-@implementation ContactsViewController
-
+@implementation FavoritesViewController
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -24,8 +23,12 @@
     return self;
 }
 
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
