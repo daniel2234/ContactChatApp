@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CellTableView.h"
+#import "ContactsViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    ContactsViewController *contactViewController = [[ContactsViewController alloc]init];
+    
+    
+    CellTableView *contactTableView = [[CellTableView alloc]initWithStyle:UITableViewStylePlain];
+    CGRect viewRect = [[UIScreen mainScreen]bounds];//way to contain data, it is a struct
+    self.window = [[UIWindow alloc]initWithFrame:viewRect];
+    self.window.rootViewController = contactTableView;
+    [self.window makeKeyAndVisible];
+
+  
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+//    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+//    [tabBarController setViewControllers:@[contactViewController];
+//    self.window.rootViewController=tabBarController;
+//    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

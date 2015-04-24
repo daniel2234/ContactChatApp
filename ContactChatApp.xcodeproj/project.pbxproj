@@ -14,6 +14,9 @@
 		65FB3DF71AE9753C005DD1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FB3DF61AE9753C005DD1B4 /* Images.xcassets */; };
 		65FB3DFA1AE9753C005DD1B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FB3DF81AE9753C005DD1B4 /* LaunchScreen.xib */; };
 		65FB3E061AE9753C005DD1B4 /* ContactChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E051AE9753C005DD1B4 /* ContactChatAppTests.m */; };
+		65FB3E111AE97587005DD1B4 /* CellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E101AE97587005DD1B4 /* CellTableView.m */; };
+		65FB3E161AE9800F005DD1B4 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E151AE9800F005DD1B4 /* ContactCell.m */; };
+		65FB3E1B1AE9CDC1005DD1B4 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E1A1AE9CDC1005DD1B4 /* ContactsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		65FB3DFF1AE9753C005DD1B4 /* ContactChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FB3E041AE9753C005DD1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FB3E051AE9753C005DD1B4 /* ContactChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactChatAppTests.m; sourceTree = "<group>"; };
+		65FB3E0F1AE97587005DD1B4 /* CellTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellTableView.h; path = ../CellTableView.h; sourceTree = "<group>"; };
+		65FB3E101AE97587005DD1B4 /* CellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellTableView.m; path = ../CellTableView.m; sourceTree = "<group>"; };
+		65FB3E141AE9800F005DD1B4 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		65FB3E151AE9800F005DD1B4 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		65FB3E191AE9CDC1005DD1B4 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		65FB3E1A1AE9CDC1005DD1B4 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,10 @@
 		65FB3DDD1AE9753C005DD1B4 = {
 			isa = PBXGroup;
 			children = (
+				65FB3E191AE9CDC1005DD1B4 /* ContactsViewController.h */,
+				65FB3E1A1AE9CDC1005DD1B4 /* ContactsViewController.m */,
+				65FB3E141AE9800F005DD1B4 /* ContactCell.h */,
+				65FB3E151AE9800F005DD1B4 /* ContactCell.m */,
 				65FB3DE81AE9753C005DD1B4 /* ContactChatApp */,
 				65FB3E021AE9753C005DD1B4 /* ContactChatAppTests */,
 				65FB3DE71AE9753C005DD1B4 /* Products */,
@@ -85,6 +98,8 @@
 				65FB3DEE1AE9753C005DD1B4 /* AppDelegate.m */,
 				65FB3DF01AE9753C005DD1B4 /* ViewController.h */,
 				65FB3DF11AE9753C005DD1B4 /* ViewController.m */,
+				65FB3E0F1AE97587005DD1B4 /* CellTableView.h */,
+				65FB3E101AE97587005DD1B4 /* CellTableView.m */,
 				65FB3DF31AE9753C005DD1B4 /* Main.storyboard */,
 				65FB3DF61AE9753C005DD1B4 /* Images.xcassets */,
 				65FB3DF81AE9753C005DD1B4 /* LaunchScreen.xib */,
@@ -219,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FB3E161AE9800F005DD1B4 /* ContactCell.m in Sources */,
+				65FB3E1B1AE9CDC1005DD1B4 /* ContactsViewController.m in Sources */,
 				65FB3DF21AE9753C005DD1B4 /* ViewController.m in Sources */,
+				65FB3E111AE97587005DD1B4 /* CellTableView.m in Sources */,
 				65FB3DEF1AE9753C005DD1B4 /* AppDelegate.m in Sources */,
 				65FB3DEC1AE9753C005DD1B4 /* main.m in Sources */,
 			);
