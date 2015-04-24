@@ -37,12 +37,9 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];//will do basic configurations from uiview class
-    
-//    self.photoImageView.frame = CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)
     self.photoImageView.frame = CGRectMake(0, 0, CGRectGetWidth(self.contentView.bounds)/4.0, CGRectGetHeight(self.contentView.bounds));
     self.nameLabel.frame = CGRectMake(CGRectGetMaxX(self.photoImageView.frame), 0, CGRectGetWidth(self.contentView.bounds)-CGRectGetWidth(self.photoImageView.frame), (CGRectGetHeight(self.contentView.bounds)/2.0));
     self.companyLabel.frame = CGRectMake(CGRectGetMaxX(self.nameLabel.frame)/4.0,CGRectGetMaxY(self.nameLabel.frame),CGRectGetWidth(self.contentView.bounds)-CGRectGetWidth(self.photoImageView.frame),CGRectGetHeight(self.contentView.bounds)/2);
-    
 }
 
 @end
