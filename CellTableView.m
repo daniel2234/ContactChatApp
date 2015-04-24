@@ -1,16 +1,9 @@
-//
-//  CellTableView.m
-//  ContactChatApp
-//
-//  Created by Daniel Kwiatkowski on 2015-04-23.
-//  Copyright (c) 2015 Daniel Kwiatkowski. All rights reserved.
-//
 
 #import "CellTableView.h"
 #import "ContactCell.h"
 
 @interface CellTableView ()
-
+//@property (nonatomic, strong) NSMutableArray *contacts;
 @end
 
 @implementation CellTableView
@@ -20,22 +13,25 @@
     if (self) {
         self.title = @"Contacts";
         self.tabBarItem.image = [UIImage imageNamed:@"Profile_icon"];
+//        self.contacts = [[NSMutableArray alloc] init];
     }
     return self;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Contacts" ofType:@"plist"];
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    NSArray *name = dict[@"Name"];
+    NSArray *photo = dict[@"Company"];
+    NSArray *company = dict[@"Photo"];
+//    for (int i = 0;; i < name.count; i++)
+//    {
+//        Contact *contact = alloc;
+//        NSString *tmpName = name[i];
+//        NSString *companyName = company[i];
+//        contact.name = tmpName;
+//        [self.contacts addObject:contact];
+////////    }
 }
 
 
@@ -69,6 +65,12 @@
 {
     return 100.0f;
 }
+
+//-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+//
+//    //
+//
+//}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

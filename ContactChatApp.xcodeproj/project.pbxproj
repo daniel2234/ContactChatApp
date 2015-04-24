@@ -17,6 +17,7 @@
 		65FB3E111AE97587005DD1B4 /* CellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E101AE97587005DD1B4 /* CellTableView.m */; };
 		65FB3E161AE9800F005DD1B4 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E151AE9800F005DD1B4 /* ContactCell.m */; };
 		65FB3E1E1AEA9A1A005DD1B4 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FB3E1D1AEA9A1A005DD1B4 /* FavoritesViewController.m */; };
+		65FB3E231AEAB25F005DD1B4 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65FB3E221AEAB25F005DD1B4 /* Contacts.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		65FB3E151AE9800F005DD1B4 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
 		65FB3E1C1AEA9A1A005DD1B4 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
 		65FB3E1D1AEA9A1A005DD1B4 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		65FB3E221AEAB25F005DD1B4 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Contacts.plist; path = ../Contacts.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				65FB3DF31AE9753C005DD1B4 /* Main.storyboard */,
 				65FB3DF61AE9753C005DD1B4 /* Images.xcassets */,
 				65FB3DF81AE9753C005DD1B4 /* LaunchScreen.xib */,
+				65FB3E221AEAB25F005DD1B4 /* Contacts.plist */,
 				65FB3DE91AE9753C005DD1B4 /* Supporting Files */,
 			);
 			path = ContactChatApp;
@@ -217,6 +220,7 @@
 				65FB3DF51AE9753C005DD1B4 /* Main.storyboard in Resources */,
 				65FB3DFA1AE9753C005DD1B4 /* LaunchScreen.xib in Resources */,
 				65FB3DF71AE9753C005DD1B4 /* Images.xcassets in Resources */,
+				65FB3E231AEAB25F005DD1B4 /* Contacts.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

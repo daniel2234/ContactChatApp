@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Photo</key>
+	<array>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+		<string>Profile_icon.png</string>
+	</array>
+	<key>Company</key>
+	<array>
+		<string>Apple Inc</string>
+		<string>Microsoft</string>
+		<string>Pied Piper</string>
+		<string>Hooli</string>
+		<string>Snapchat</string>
+		<string>DropBox</string>
+		<string>Tinder</string>
+		<string>Air Canada</string>
+		<string>Computer Electronics</string>
+		<string>Subway</string>
+		<string>TTC</string>
+		<string>theScore</string>
+		<string>Twitter</string>
+		<string>Facebook</string>
+		<string>Mazda</string>
+		<string>University of Toronto</string>
+	</array>
+	<key>Name</key>
+	<array>
+		<string>Jane Appleseed</string>
+		<string>Daniel Roundstone</string>
+		<string>Vargas Deliotte</string>
+		<string>Mike Smith</string>
+		<string>Daniela Stoner</string>
+		<string>Don Campbell</string>
+		<string>Ron White</string>
+		<string>Don Black</string>
+		<string>Dan Green</string>
+		<string>Laila Little</string>
+		<string>Hung Lo</string>
+		<string>Tove Lo</string>
+		<string>Calvin Fargus</string>
+		<string>David Le</string>
+		<string>Letoya Pearson</string>
+		<string>Don Daimler</string>
+	</array>
+</dict>
+</plist>

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ContactCell : UITableViewCell
-
+//properties of the the cell
 @property (strong, nonatomic) UILabel *nameLabel;
 @property (strong, nonatomic) UILabel *companyLabel;
 @property (strong, nonatomic) UIImageView *photoImageView;
